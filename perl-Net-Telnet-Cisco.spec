@@ -4,8 +4,8 @@
 Summary:	Net::Telnet::Cisco perl module
 Summary(pl):	Modu³ perla Net::Telnet::Cisco
 Name:		perl-%{pdir}-%{pnam}
-Version:	1.08
-Release:	2
+Version:	1.10
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -44,4 +44,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.gz
 %{perl_sitelib}/Net/Telnet/Cisco.pm
+%{perl_sitelib}/auto/Net/Telnet/Cisco
 %{_mandir}/man3/*

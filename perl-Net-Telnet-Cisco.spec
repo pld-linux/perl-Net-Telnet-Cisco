@@ -66,5 +66,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_sitelib}/auto/Net/Telnet
 # empty autosplit.ix
 #%dir %{perl_sitelib}/auto/Net/Telnet/Cisco
-#%{perl_sitelib}/auto/Net/Telnet/Cisco/autosplit.ix
+#%%{perl_sitelib}/auto/Net/Telnet/Cisco/autosplit.ix
 %{_mandir}/man3/*

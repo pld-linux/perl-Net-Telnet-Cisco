@@ -1,11 +1,26 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	Telnet-Cisco
-Summary:	Net::Telnet::Cisco perl module
-Summary(pl):	Modu³ perla Net::Telnet::Cisco
+%define		pdir	Net
+%define		pnam	Telnet-Cisco
+Summary:	Net::Telnet::Cisco Perl module
+Summary(cs):	Modul Net::Telnet::Cisco pro Perl
+Summary(da):	Perlmodul Net::Telnet::Cisco
+Summary(de):	Net::Telnet::Cisco Perl Modul
+Summary(es):	Módulo de Perl Net::Telnet::Cisco
+Summary(fr):	Module Perl Net::Telnet::Cisco
+Summary(it):	Modulo di Perl Net::Telnet::Cisco
+Summary(ja):	Net::Telnet::Cisco Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Net::Telnet::Cisco ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul Net::Telnet::Cisco
+Summary(pl):	Modu³ Perla Net::Telnet::Cisco
+Summary(pt):	Módulo de Perl Net::Telnet::Cisco
+Summary(pt_BR):	Módulo Perl Net::Telnet::Cisco
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Net::Telnet::Cisco
+Summary(sv):	Net::Telnet::Cisco Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Net::Telnet::Cisco
+Summary(zh_CN):	Net::Telnet::Cisco Perl Ä£¿é
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.10
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -41,7 +56,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
-%{perl_sitelib}/Net/Telnet/Cisco.pm
-%{perl_sitelib}/auto/Net/Telnet/Cisco
+%doc Changes README TODO
+%{perl_sitelib}/Net/Telnet
 %{_mandir}/man3/*

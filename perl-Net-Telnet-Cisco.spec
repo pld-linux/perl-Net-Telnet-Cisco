@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Net::Telnet::Cisco
 Summary(it):	Modulo di Perl Net::Telnet::Cisco
 Summary(ja):	Net::Telnet::Cisco Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Net::Telnet::Cisco ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Net::Telnet::Cisco
+Summary(nb):	Perlmodul Net::Telnet::Cisco
 Summary(pl):	Modu³ Perla Net::Telnet::Cisco
 Summary(pt):	Módulo de Perl Net::Telnet::Cisco
 Summary(pt_BR):	Módulo Perl Net::Telnet::Cisco

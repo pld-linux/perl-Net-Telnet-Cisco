@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Net::Telnet::Cisco
 Summary(zh_CN):	Net::Telnet::Cisco Perl дё©И
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.10
-Release:	5
+Release:	6
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

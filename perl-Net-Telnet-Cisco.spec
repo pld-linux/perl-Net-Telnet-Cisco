@@ -1,11 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Telnet-Cisco
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net-Telnet-Cisco perl module
 Summary(pl):	Modu³ perla Net-Telnet-Cisco
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.08
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

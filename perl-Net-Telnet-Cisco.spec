@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Net::Telnet::Cisco
 Summary(zh_CN):	Net::Telnet::Cisco Perl дё©И
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.10
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -32,7 +32,7 @@ BuildRequires:	perl >= 5.6.1
 BuildRequires:	perl-Net-Telnet
 BuildRequires:	perl-Test-Simple
 BuildRequires:	perl-Term-ReadKey
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -47,7 +47,8 @@ Cisco.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 %{!?_without_tests:%{__make} test}
 
@@ -62,9 +63,9 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README TODO
-%{perl_sitelib}/Net/Telnet
-%dir %{perl_sitelib}/auto/Net/Telnet
+%{perl_vendorlib}/Net/Telnet
+%dir %{perl_vendorlib}/auto/Net/Telnet
 # empty autosplit.ix
-#%dir %{perl_sitelib}/auto/Net/Telnet/Cisco
-#%%{perl_sitelib}/auto/Net/Telnet/Cisco/autosplit.ix
+#%dir %{perl_vendorlib}/auto/Net/Telnet/Cisco
+#%%{perl_vendorlib}/auto/Net/Telnet/Cisco/autosplit.ix
 %{_mandir}/man3/*

@@ -25,7 +25,8 @@ Summary(zh_CN):	Net::Telnet::Cisco Perl Ä£¿é
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.10
 Release:	5
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a25845350be369cb8354e0ddc55708f9
@@ -57,7 +58,8 @@ Cisco.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT

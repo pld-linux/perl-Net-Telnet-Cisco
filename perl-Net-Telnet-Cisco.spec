@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	Telnet-Cisco
-Summary:	Net-Telnet-Cisco perl module
-Summary(pl):	Modu³ perla Net-Telnet-Cisco
+Summary:	Net::Telnet::Cisco perl module
+Summary(pl):	Modu³ perla Net::Telnet::Cisco
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.08
 Release:	2
@@ -18,7 +18,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net-Telnet-Cisco - interact with TELNET port on Cisco routers.
+Net::Telnet::Cisco - interact with TELNET port on Cisco routers.
 
 %description -l pl
 Net-Telnet - wsparcie dla protoko³u TELNET na urz±dzeniach Cisco.

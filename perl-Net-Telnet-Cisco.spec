@@ -22,7 +22,7 @@ Summary(ru):	Модуль для Perl Net::Telnet::Cisco
 Summary(sv):	Net::Telnet::Cisco Perlmodul
 Summary(uk):	Модуль для Perl Net::Telnet::Cisco
 Summary(zh_CN):	Net::Telnet::Cisco Perl дё©И
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Net-Telnet-Cisco
 Version:	1.10
 Release:	6
 # same as perl

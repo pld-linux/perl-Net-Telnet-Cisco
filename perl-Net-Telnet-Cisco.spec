@@ -1,3 +1,7 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Net
 %define		pnam	Telnet-Cisco
@@ -20,7 +24,7 @@ Summary(uk):	Модуль для Perl Net::Telnet::Cisco
 Summary(zh_CN):	Net::Telnet::Cisco Perl дё©И
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.10
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -45,6 +49,7 @@ Cisco.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -59,6 +64,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README TODO
 %{perl_sitelib}/Net/Telnet
 %dir %{perl_sitelib}/auto/Net/Telnet
-%dir %{perl_sitelib}/auto/Net/Telnet/Cisco
-%{perl_sitelib}/auto/Net/Telnet/Cisco/autosplit.ix
+# empty autosplit.ix
+#%dir %{perl_sitelib}/auto/Net/Telnet/Cisco
+#%{perl_sitelib}/auto/Net/Telnet/Cisco/autosplit.ix
 %{_mandir}/man3/*

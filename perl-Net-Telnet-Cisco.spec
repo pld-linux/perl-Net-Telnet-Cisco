@@ -44,5 +44,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.gz
 %{perl_sitelib}/Net/Telnet/Cisco.pm
-%{perl_sitelib}/auto/Net/Telnet/Cisco/autosplit.ix
 %{_mandir}/man3/*

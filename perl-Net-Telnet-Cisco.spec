@@ -28,7 +28,7 @@ Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	perl >= 5.6.1
+BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	perl-Net-Telnet
 BuildRequires:	perl-Test-Simple
 BuildRequires:	perl-Term-ReadKey

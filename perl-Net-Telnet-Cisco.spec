@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Net::Telnet::Cisco
 Summary(zh_CN):	Net::Telnet::Cisco Perl дё©И
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.10
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -58,4 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README TODO
 %{perl_sitelib}/Net/Telnet
+%dir %{perl_sitelib}/auto/Net/Telnet
+%dir %{perl_sitelib}/auto/Net/Telnet/Cisco
+%{perl_sitelib}/auto/Net/Telnet/Cisco/autosplit.ix
 %{_mandir}/man3/*

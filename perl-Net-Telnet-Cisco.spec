@@ -19,6 +19,9 @@ Group(ru):	Разработка/Языки/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
+BuildRequires:	perl-Net-Telnet
+BuildRequires:	perl-Test-Simple
+BuildRequires:	perl-Term-ReadKey
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -49,4 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.gz
 %{perl_sitelib}/Net/Telnet/Cisco.pm
+%{perl_sitelib}/auto/Net/Telnet/Cisco/autosplit.ix
 %{_mandir}/man3/*

@@ -69,7 +69,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README TODO
 %{perl_vendorlib}/Net/Telnet
 %dir %{perl_vendorlib}/auto/Net/Telnet
-# empty autosplit.ix
-#%dir %{perl_vendorlib}/auto/Net/Telnet/Cisco
-#%%{perl_vendorlib}/auto/Net/Telnet/Cisco/autosplit.ix
+# empty autosplit.ix, but needed.
+%dir %{perl_vendorlib}/auto/Net/Telnet/Cisco
+%{perl_vendorlib}/auto/Net/Telnet/Cisco/autosplit.ix
 %{_mandir}/man3/*

@@ -6,22 +6,22 @@
 %define		pdir	Net
 %define		pnam	Telnet-Cisco
 Summary:	Net::Telnet::Cisco Perl module
-Summary(cs):	Modul Net::Telnet::Cisco pro Perl
-Summary(da):	Perlmodul Net::Telnet::Cisco
-Summary(de):	Net::Telnet::Cisco Perl Modul
-Summary(es):	MÛdulo de Perl Net::Telnet::Cisco
-Summary(fr):	Module Perl Net::Telnet::Cisco
-Summary(it):	Modulo di Perl Net::Telnet::Cisco
-Summary(ja):	Net::Telnet::Cisco Perl •‚•∏•Â°º•Î
-Summary(ko):	Net::Telnet::Cisco ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Net::Telnet::Cisco
-Summary(pl):	Modu≥ Perla Net::Telnet::Cisco
-Summary(pt):	MÛdulo de Perl Net::Telnet::Cisco
-Summary(pt_BR):	MÛdulo Perl Net::Telnet::Cisco
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Net::Telnet::Cisco
-Summary(sv):	Net::Telnet::Cisco Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Net::Telnet::Cisco
-Summary(zh_CN):	Net::Telnet::Cisco Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Net::Telnet::Cisco pro Perl
+Summary(da.UTF-8):   Perlmodul Net::Telnet::Cisco
+Summary(de.UTF-8):   Net::Telnet::Cisco Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Net::Telnet::Cisco
+Summary(fr.UTF-8):   Module Perl Net::Telnet::Cisco
+Summary(it.UTF-8):   Modulo di Perl Net::Telnet::Cisco
+Summary(ja.UTF-8):   Net::Telnet::Cisco Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Net::Telnet::Cisco ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Net::Telnet::Cisco
+Summary(pl.UTF-8):   Modu≈Ç Perla Net::Telnet::Cisco
+Summary(pt.UTF-8):   M√≥dulo de Perl Net::Telnet::Cisco
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Net::Telnet::Cisco
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Net::Telnet::Cisco
+Summary(sv.UTF-8):   Net::Telnet::Cisco Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Net::Telnet::Cisco
+Summary(zh_CN.UTF-8):   Net::Telnet::Cisco Perl Ê®°Âùó
 Name:		perl-Net-Telnet-Cisco
 Version:	1.10
 Release:	6
@@ -41,8 +41,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Net::Telnet::Cisco - interact with TELNET port on Cisco routers.
 
-%description -l pl
-Net::Telnet::Cisco - wsparcie dla protoko≥u TELNET na urz±dzeniach
+%description -l pl.UTF-8
+Net::Telnet::Cisco - wsparcie dla protoko≈Çu TELNET na urzƒÖdzeniach
 Cisco.
 
 %prep

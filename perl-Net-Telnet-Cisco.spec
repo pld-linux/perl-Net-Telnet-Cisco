@@ -6,22 +6,22 @@
 %define		pdir	Net
 %define		pnam	Telnet-Cisco
 Summary:	Net::Telnet::Cisco Perl module
-Summary(cs.UTF-8):   Modul Net::Telnet::Cisco pro Perl
-Summary(da.UTF-8):   Perlmodul Net::Telnet::Cisco
-Summary(de.UTF-8):   Net::Telnet::Cisco Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Net::Telnet::Cisco
-Summary(fr.UTF-8):   Module Perl Net::Telnet::Cisco
-Summary(it.UTF-8):   Modulo di Perl Net::Telnet::Cisco
-Summary(ja.UTF-8):   Net::Telnet::Cisco Perl モジュール
-Summary(ko.UTF-8):   Net::Telnet::Cisco 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Net::Telnet::Cisco
-Summary(pl.UTF-8):   Moduł Perla Net::Telnet::Cisco
-Summary(pt.UTF-8):   Módulo de Perl Net::Telnet::Cisco
-Summary(pt_BR.UTF-8):   Módulo Perl Net::Telnet::Cisco
-Summary(ru.UTF-8):   Модуль для Perl Net::Telnet::Cisco
-Summary(sv.UTF-8):   Net::Telnet::Cisco Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Net::Telnet::Cisco
-Summary(zh_CN.UTF-8):   Net::Telnet::Cisco Perl 模块
+Summary(cs.UTF-8):	Modul Net::Telnet::Cisco pro Perl
+Summary(da.UTF-8):	Perlmodul Net::Telnet::Cisco
+Summary(de.UTF-8):	Net::Telnet::Cisco Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Net::Telnet::Cisco
+Summary(fr.UTF-8):	Module Perl Net::Telnet::Cisco
+Summary(it.UTF-8):	Modulo di Perl Net::Telnet::Cisco
+Summary(ja.UTF-8):	Net::Telnet::Cisco Perl モジュール
+Summary(ko.UTF-8):	Net::Telnet::Cisco 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Net::Telnet::Cisco
+Summary(pl.UTF-8):	Moduł Perla Net::Telnet::Cisco
+Summary(pt.UTF-8):	Módulo de Perl Net::Telnet::Cisco
+Summary(pt_BR.UTF-8):	Módulo Perl Net::Telnet::Cisco
+Summary(ru.UTF-8):	Модуль для Perl Net::Telnet::Cisco
+Summary(sv.UTF-8):	Net::Telnet::Cisco Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Net::Telnet::Cisco
+Summary(zh_CN.UTF-8):	Net::Telnet::Cisco Perl 模块
 Name:		perl-Net-Telnet-Cisco
 Version:	1.10
 Release:	6

@@ -24,7 +24,7 @@ Summary(uk.UTF-8):	Модуль для Perl Net::Telnet::Cisco
 Summary(zh_CN.UTF-8):	Net::Telnet::Cisco Perl 模块
 Name:		perl-Net-Telnet-Cisco
 Version:	1.10
-Release:	6
+Release:	7
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

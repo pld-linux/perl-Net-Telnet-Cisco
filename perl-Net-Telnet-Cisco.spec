@@ -4,7 +4,6 @@
 
 %define		pdir	Net
 %define		pnam	Telnet-Cisco
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::Telnet::Cisco Perl module
 Summary(cs.UTF-8):	Modul Net::Telnet::Cisco pro Perl
 Summary(da.UTF-8):	Perlmodul Net::Telnet::Cisco
